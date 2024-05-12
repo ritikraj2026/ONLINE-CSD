@@ -1,0 +1,721 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body{
+    overflow-x: hidden;
+}
+.logo
+{
+    display:flex;
+    position: relative;
+    width: 100vw;
+    height :100px;
+    background: #789461;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    flex-shrink: 1;
+}
+.box1 
+{
+    width: 221px;
+    height: 74.98px;
+}
+.box2 {  
+    width: 517px;
+    height: 70px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.75rem;
+    line-height: 64px;
+    color: #294B29;
+}
+.box3
+{
+    display: flex; 
+    width:267px;
+    justify-content: space-evenly;
+}
+.box31
+{
+    /* indian-army-logo-9yyeqs1cn57bvbtt-removebg-preview 1 */
+    width: 74.36px;
+    height: 72.8px;
+}
+.box32
+{
+    /* image 2 */
+    width: 38.66px;
+    height: 70.57px;
+}
+.box33
+{
+    /* image 3 */
+    width: 64.19px;
+    height: 70.53px;
+}
+
+
+
+
+/*YAHAN SE KAAM NIKHIL THE DON NE KIYA HAI (NAV-BAR)*/
+
+.nav-bar{
+    display:flex;
+    position:relative;
+    height:71px;
+    width:100vw;
+    background-image: url(./assets/armybg.png);
+}
+
+.options{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 2%;
+    gap:5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color:black;
+}
+.home{
+text-decoration:none;
+
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20.0139px;
+line-height: 29px;
+
+color: #DBE7C9;
+}
+
+
+.right-end{
+    display:flex;
+    position:absolute;
+    margin-left: 85%;
+    margin-top:25px;
+    gap: 7%;
+    font-weight: 500;
+    
+}
+.pfp{
+    height: 35px;
+    width: 35px;
+}
+.checkava
+{
+    /* Group 1 */
+display: flex;
+margin: 0 auto;
+position: relative;
+width: 100vw;
+height: 74px;
+
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #294B29
+}
+.text
+{
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 39px;
+
+color: #294B29;
+
+}
+.button
+{
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: #50623A;
+border-radius: 9px;
+/* CLICK HERE */
+
+
+width:  104.44px;
+height: 45px;
+
+
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+}
+.buttonin
+{
+    text-decoration: none;
+
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 21.0938px;
+line-height: 30px;
+
+color: #DBE7C9;
+
+
+}
+
+
+
+.right-end{
+    display: flex;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75.5% ;
+    margin-top: 20px;
+    gap: 20%;
+    font-weight: 500;
+
+    
+
+}
+
+.image
+{
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.das {
+    max-width: 900px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* or other values like cover, depending on your preference */
+    border-radius: 10px;
+    overflow: auto;
+}
+.das img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBE7C9;
+    height:500px;
+    gap: 50px;
+    padding-top:  6rem;
+    padding-bottom: 6rem;
+    
+}
+
+.container1
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.arrow
+{
+    cursor: pointer;
+}
+.right{
+
+    transform: rotate(180deg);
+}
+.frame
+{
+    
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: -1px 1px 10px rgba(0,0,0,0.5);
+    border-radius: 2rem;
+    
+}
+.slider
+{
+    display: flex;
+    transition: all 1s ease;
+  
+    
+}
+.images
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgarrange{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.poop{
+    margin-top: 20px;
+}
+
+.headi
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+    padding: 2rem;
+    gap:2rem;  
+    padding-bottom: 4rem; 
+}
+.invent
+{
+    text-align: center;
+    color: #B0CA89;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.righti{
+    transform:rotate(180deg);
+}
+.des
+{
+    height: 15px;
+}
+
+
+.category
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 90px;
+}
+
+.text1
+{
+    text-align: center;
+    font-size: 26px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:-1px 1px 2px rgba(0,0,0,0.5); ;
+}
+.cat{
+    
+    height: 100%;
+    overflow: hidden;
+    box-shadow: -1px 1px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.newsupdate
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.newsupdate h1{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B0CA89 ;
+    font-style: bold ;
+}
+.dor
+{
+    height: 15px;
+    
+}
+
+.containernews
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem
+}
+
+.newscon
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding:4rem;
+    max-width: 1200px;
+    padding-bottom: 150px;
+}
+.parade
+{   
+    width: 45%;
+    height: 470px;
+    box-shadow: -1px 1px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.linebwt
+{
+    height: 470px;
+    width: 2px;
+    background-color: #B0CA89;
+    box-shadow: -1px 1px 15px rgba(0,0,0,0.5);
+}
+
+.card
+{
+    width: 45%;
+    height: 470px;  
+    background: linear-gradient(145.56deg, #C3E3FE 0%, #FFFFFF 53.33%, #D3B093 99.32%);
+    box-shadow: -1px 1px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:4rem;
+    gap: 2rem;
+}
+.card p{
+    font-size:large;
+}
+
+.searching{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.csdsearch
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 700px;
+    border: 1px solid black;
+}
+
+.here
+{
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    gap:7rem
+}
+.loc
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.loc img{
+    height: 40px;
+    width: 30px;
+
+}
+
+      
+
+.cont-blur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-line
+{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap:20rem;  
+    padding-bottom: 2rem;
+    border: 1px solid white;
+    width: 1000px;
+    margin-bottom: 100px;
+    box-shadow: -1px 1px  3px rgba(0,0,0,0.5);
+}
+
+
+
+.text4
+{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap:20rem; 
+    padding-top: 2rem; 
+    width: 100%;
+    
+
+}
+.inline
+{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap:1rem;
+
+}
+
+.love
+{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap:13rem;
+    margin-top: 1rem;
+}
+
+.loctext1
+{
+    appearance: none;
+    width: 25rem;
+    border: 1px solid black;
+    padding: 23px;
+    font-size: larger;
+}
+
+.shopbutton {
+    padding: 1rem;
+    margin-top: -3rem;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    border:2px solid #B0CA89;
+    font-weight: 500;
+}
+
+.shopdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.shopa {
+    text-decoration: none;
+}
+
+
+
+.items{
+    font-size: 2rem;
+    color:#DBE7C9;
+    font-weight:600 ;
+    padding-left: 7rem;
+    padding-top: 2rem;
+}
+
+
+.jd_table{
+    min-width: 250px;
+    height: fit-content;
+    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+    border-radius: 2px;
+    font-family:'Plus Jakarta Sans';
+    border-radius:8px;  
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    width:20%;
+    margin-top: 2rem;
+}
+
+.jd_table ul{
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    gap: 16px;
+}
+.jd_table ul a{
+    color:#000000;
+    text-align:left;
+    vertical-align: middle;
+    line-height:24px;
+    border-style:hidden;
+    height: auto;
+    border-top: 1px solid rgba(234,234,234,1);
+    padding-top: 14px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+.shopheading{
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+ 
+    margin-top: 1rem;
+}
+
+
+.maindiv{
+    display: flex;
+    gap:1rem;
+}
+
+
+#mainContent{
+    background-color: #DBE7C9;
+    width: 67%;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    
+}
+
+.imgarrange img{
+    width: 16rem;
+}
+
+.imgarrange{
+    margin-top: 2rem;
+    left:5;
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.itemText{
+   padding: 1rem; 
+   font-size: 1.5rem;
+   background-color: white;
+   color:black;
+   margin-top: -12px;
+text-align: center;
+   z-index: 4;
+  
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.subbtn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    align-self: center;
+    
+}
+
+.sub1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #294B29;
+    background-color: #50623A;
+    text-align: center;
+    width: 30%;
+    height: 40px;
+    border-radius: 2rem;
+}
+.sub
+{
+    text-decoration: none;
+    color: white;
+}
+.footer
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+
+.footdes1
+{
+   
+    position: absolute;
+    width: 100vw;
+    height: 700px;
+    
+}.footdes
+{
+    position: absolute;
+    width: 100vw;
+    height: 700px;
+}
+.footerclass
+{
+    margin-top: 300px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 10rem;
+    
+}
+.student
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.links
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: xx-large;
+}
+.footerlink
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}

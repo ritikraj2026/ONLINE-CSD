@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    overflow-x: hidden;
+}
+.logo
+{
+    display:flex;
+    position: relative;
+    width: 100vw;
+    height :100px;
+    background: #789461;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    flex-shrink: 1;
+}
+.box1 
+{
+    width: 221px;
+    height: 74.98px;
+}
+.box2 {  
+    width: 517px;
+    height: 70px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.75rem;
+    line-height: 64px;
+    color: #294B29;
+}
+.box3
+{
+    display: flex; 
+    width:267px;
+    justify-content: space-evenly;
+}
+.box31
+{
+    /* indian-army-logo-9yyeqs1cn57bvbtt-removebg-preview 1 */
+    width: 74.36px;
+    height: 72.8px;
+}
+.box32
+{
+    /* image 2 */
+    width: 38.66px;
+    height: 70.57px;
+}
+.box33
+{
+    /* image 3 */
+    width: 64.19px;
+    height: 70.53px;
+}
+
+
+
+
+/*YAHAN SE KAAM NIKHIL THE DON NE KIYA HAI (NAV-BAR)*/
+
+.nav-bar{
+    display:flex;
+    position:relative;
+    height:71px;
+    width:100vw;
+    background-image: url(./assets/armybg.png);
+}
+
+.options{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 2%;
+    gap:5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color:black;
+}
+.home{
+text-decoration:none;
+
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20.0139px;
+line-height: 29px;
+
+color: #DBE7C9;
+}
+
+
+
+.pfp{
+    height: 35px;
+    width: 35px;
+}
+.checkava
+{
+    /* Group 1 */
+display: flex;
+margin: 0 auto;
+position: relative;
+width: 100vw;
+height: 74px;
+background-color:#789461 ;
+
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.text
+{
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 39px;
+
+color: #294B29;
+
+
+}
+.button
+{
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: #50623A;
+border-radius: 9px;
+/* CLICK HERE */
+
+
+width:  104.44px;
+height: 45px;
+
+
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+}
+.buttonin
+{
+    text-decoration: none;
+
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 21.0938px;
+line-height: 30px;
+
+color: #DBE7C9;
+
+
+}
+
+
+
+.right-end{
+    display: flex;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75.5% ;
+    margin-top: 20px;
+    gap: 20%;
+    font-weight: 500;
+
+    
+
+}
+
+.image
+{
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.das {
+    max-width: 900px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* or other values like cover, depending on your preference */
+    border-radius: 10px;
+    overflow: auto;
+}
+.das img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+
+
+
+.about h1
+{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    padding-left: 9%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #789461;
+
+}
+.box-in
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.inside
+{
+    position: relative;
+    background-color: #DBE7C9;
+    width: 1050px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 20px ;
+    margin-bottom: 120px;
+}
+.design
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 3rem;
+}
+.para
+{
+    font-size: x-large;
+}
+
+.end-footer
+{
+    background-color:#50623A;
+    width: 100vw;
+    height: 100px;
+}
+
